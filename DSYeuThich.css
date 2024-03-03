@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: yellow;
+    display: flex;
+}
+.header .bentrai{
+    width: 45%;
+    height: 100%;
+    display: flex;
+
+}
+.header .bentrai a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    color:rgb(30, 30, 120);
+}
+.header .bentrai a:hover{
+    color: black;
+    cursor: pointer;
+}
+.header .ogiua{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 0 10%;
+    
+}
+.header .ogiua input{
+    width: 120%;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 12px;
+    position: relative;
+    margin-left: -40px;
+}
+.header .ogiua i{
+    position: absolute;
+    transform: translateX(360px) translateY(-25px);
+}
+.header .benphai{
+    width: 30%;
+    height: 100%;
+}
+.header .benphai i{
+    font-size: 35px;
+    padding: 10px 25px;
+    color:rgb(30, 30, 120);
+}
+.header .benphai i:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.select{
+    width: 100%;
+    height: 13%;
+    background-color: #666161;
+    display: flex;
+}
+.select a{
+    font-size: 25px;
+    padding: 25px 0px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.select a:hover{
+    color: black;
+    cursor: pointer;
+}*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background: rgb(236, 231, 231);
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: yellow;
+    display: flex;
+}
+.header .bentrai{
+    width: 45%;
+    height: 100%;
+    display: flex;
+
+}
+.header .bentrai a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    color:rgb(30, 30, 120);
+}
+.header .bentrai a:hover{
+    color: black;
+    cursor: pointer;
+}
+.header .ogiua{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 0 10%;
+    
+}
+.header .ogiua input{
+    width: 120%;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 12px;
+    position: relative;
+    margin-left: -40px;
+}
+.header .ogiua i{
+    position: absolute;
+    transform: translateX(360px) translateY(-25px);
+}
+.header .benphai{
+    width: 30%;
+    height: 100%;
+}
+.header .benphai i{
+    font-size: 35px;
+    padding: 10px 25px;
+    color:rgb(30, 30, 120);
+}
+.header .benphai i:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.select{
+    width: 100%;
+    height: 13%;
+    background-color: #666161;
+    display: flex;
+}
+.select a{
+    font-size: 25px;
+    padding: 25px 0px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.select a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.pagename{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+    .pagename i{
+        font-size: 35px;
+        display: inline-block;
+        color: red;
+    }
+    .pagename h3{
+        display: inline-block;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+.blank1{
+    width: 5%;
+    height: 100%;
+    float: left;
+}
+
+.block1{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+}
+    .block1 p{
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .block1 hr{
+        width: 40%;
+        text-align: center;
+        margin-left: 155px;
+        margin-bottom: 30px;    
+    }
+    .block1 .box1{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+        .box1 .option{
+            margin-bottom: 30px;
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+        }
+            .option a{
+                text-decoration: none;
+                color: black;
+            }
+            .option a:hover{
+            color: rgb(206, 188, 24)
+            }
+    .block1 .box2{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }    
+        .box2 a{
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+        }
+        .box2 a:hover{
+            color: rgb(206, 188, 24);
+        }
+    
+    /* .block2{
+        width: 5%;
+        height: 100%;
+        float: left;
+    }     */
+    .block3{
+        width: 63%;
+        height: auto;
+        float: left;   
+    }
+        .block3 .block-name{
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 30px;        
+        }
+        .block3 .box1{
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            margin-bottom: 70px;
+        }
+            .box1 .img-button{
+                width: 20%;
+                height: auto;
+            }
+                .img-button img{
+                    width: 80%;
+                    height: 100%;   
+                    float: left;             
+                    margin-right: 50px;
+                }
+
+            .box1 .name-sp{
+                font-size: 25px;
+                font-weight: bold; 
+                display: inline;
+            }
+            .box1 .del{
+                display: inline;
+                float: right;
+                font-size: 30px;
+            }
+                .del a{
+                    text-decoration: none;
+                    color: black;
+                }
+                .del a i:hover{
+                    color: red;
+                }
+            .box1 .price-sp{
+                font-size: 25px;
+                margin: 15px 0;
+            }
+                .price-sp b{
+                    color: red;
+                }
+            .box1 .size-sp{
+                font-size: 25px;
+                margin: 15px 0;
+                display: inline;
+            }
+            .box1 .chose-size{
+                display: inline;
+                font-size: 25px;
+                width: 25px;
+                height: 20px;
+                border: 1px solid black;
+                background-color: rgb(196, 191, 191);
+                border-radius: 3px;
+                border: none;
+            }
+                .chose-size p{
+                    display: inline;
+                    margin-right: -5px;
+                }
+                .chose-size a{
+                    text-decoration: none;
+                    color: black;
+                }
+                    a i{
+                        font-size: 23px;
+                    }
+                    .chose-size a i:hover{
+                        color: red;
+                    }
+            .box1 .quantity p{  
+                font-size: 25px;
+                margin: 15px 0;
+                display: inline-block;
+            }
+                .quantity a i{
+                    color: black;
+                }
+                .quantity a i:hover{
+                    color: red;
+                }
+            .box1 .add-sp button{
+                font-size: 20px;
+                padding: 5px 20px;
+                float: right;
+                margin-top: -22px;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                border-radius: 5px;
+            }   
+                .add-sp button:hover{
+                    background-color: red;
+                    cursor: pointer;
+                }
+                
+        
+
+.duoi{
+    width: 98%;
+    height: auto;
+    background-color: yellow;
+    float: left;
+    margin-top: -50px;
+}
+ .duoi .adderss1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-left: 160px;
+}
+    .adderss1 .left{
+        margin-right: 80px;
+    }
+ .duoi .adderss1 .left p{
+    font-size: 20px;
+    padding: 8px 25px;
+}
+ .duoi .adderss1 .left p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+ .duoi .adderss1 .right p{
+    font-size: 20px;
+    padding: 8px 25px;
+    text-align: center;
+}
+ .duoi .adderss1 .right img{
+    width:  10%;
+}
+
+ .duoi .adderss2{
+    width: 100%;
+    height: 20%;
+    background-color: #666161;
+}
+ .duoi .adderss2 p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transform: translateY(10px);
+}.duoi{
+    width: 100%;
+    height: 220px;
+    background-color: yellow;
+}
+ .duoi .adderss1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+ .duoi .adderss1 .left p{
+    font-size: 20px;
+    padding: 8px 25px;
+}
+ .duoi .adderss1 .left p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+ .duoi .adderss1 .right p{
+    font-size: 20px;
+    padding: 8px 25px;
+    text-align: center;
+}
+ .duoi .adderss1 .right img{
+    width:  10%;
+}
+
+ .duoi .adderss2{
+    width: 100%;
+    height: 20%;
+    background-color: #666161;
+}
+ .duoi .adderss2 p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transform: translateY(10px);
+}

@@ -1,0 +1,460 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: yellow;
+    display: flex;
+}
+.header .bentrai{
+    width: 45%;
+    height: 100%;
+    display: flex;
+
+}
+.header .bentrai a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    color:rgb(30, 30, 120);
+}
+.header .bentrai a:hover{
+    color: black;
+    cursor: pointer;
+}
+.header .ogiua{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 0 10%;
+    
+}
+.header .ogiua input{
+    width: 120%;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 12px;
+    position: relative;
+    margin-left: -40px;
+}
+.header .ogiua i{
+    position: absolute;
+    transform: translateX(360px) translateY(-25px);
+}
+.header .benphai{
+    width: 30%;
+    height: 100%;
+}
+.header .benphai i{
+    font-size: 35px;
+    padding: 10px 25px;
+    color:rgb(30, 30, 120);
+}
+.header .benphai i:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.select{
+    width: 100%;
+    height: 13%;
+    background-color: #666161;
+    display: flex;
+}
+.select a{
+    font-size: 25px;
+    padding: 25px 0px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.select a:hover{
+    color: black;
+    cursor: pointer;
+}*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background: rgb(236, 231, 231);
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: yellow;
+    display: flex;
+}
+.header .bentrai{
+    width: 45%;
+    height: 100%;
+    display: flex;
+
+}
+.header .bentrai a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    color:rgb(30, 30, 120);
+}
+.header .bentrai a:hover{
+    color: black;
+    cursor: pointer;
+}
+.header .ogiua{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 0 10%;
+    
+}
+.header .ogiua input{
+    width: 120%;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 12px;
+    position: relative;
+    margin-left: -40px;
+}
+.header .ogiua i{
+    position: absolute;
+    transform: translateX(360px) translateY(-25px);
+}
+.header .benphai{
+    width: 30%;
+    height: 100%;
+}
+.header .benphai i{
+    font-size: 35px;
+    padding: 10px 25px;
+    color:rgb(30, 30, 120);
+}
+.header .benphai i:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.select{
+    width: 100%;
+    height: 13%;
+    background-color: #666161;
+    display: flex;
+}
+.select a{
+    font-size: 25px;
+    padding: 25px 0px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.select a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.block1{
+    width: 3%;
+    height: 100%;
+    float: left;
+}
+
+.block2{
+    width: 60%;
+    height: auto;
+    float: left;
+    margin: 45px 0;
+}
+    .block2 h3{
+        font-weight: bold;
+        font-size: 30px;
+    }
+.block3-left {
+    width: 69%;
+    height: auto;
+    float: left;
+}
+        .block3-left .box1{
+            width: 100%;
+            height: auto;
+            margin-bottom: 80px;
+        }
+            .box1 .img-button{
+                width: 20%;
+                height: auto;
+            }
+                .img-button img{
+                    width: 80%;
+                    height: auto;   
+                    float: left;             
+                    margin-right: 50px;
+                }
+
+            .box1 .name-sp{
+                font-size: 25px;
+                font-weight: bold; 
+                display: inline;
+            }
+            .box1 .del{
+                display: inline;
+                float: right;
+                font-size: 30px;
+            }
+                .del a{
+                    text-decoration: none;
+                    color: black;
+                }
+                .del a i:hover{
+                    color: red;
+                }
+            .box1 .price-sp{
+                font-size: 25px;
+                margin: 15px 0;
+            }
+                .price-sp b{
+                    color: red;
+                }
+            .box1 .size-sp{
+                font-size: 25px;
+                margin: 15px 0;
+                display: inline;
+            }
+            .box1 .chose-size{
+                display: inline;
+                font-size: 25px;
+                width: 25px;
+                height: 20px;
+                border: 1px solid black;
+                background-color: rgb(196, 191, 191);
+                border-radius: 3px;
+                border: none;
+            }
+                .chose-size p{
+                    display: inline;
+                    margin-right: -5px;
+                }
+                .chose-size a{
+                    text-decoration: none;
+                    color: black;
+                }
+                    a i{
+                        font-size: 23px;
+                    }
+                    .chose-size a i:hover{
+                        color: red;
+                    }
+            .box1 .quantity p{  
+                font-size: 25px;
+                margin: 15px 0;
+                display: inline-block;
+            }
+                .quantity a i{
+                    color: black;
+                }
+                .quantity a i:hover{
+                    color: red;
+                }
+            .box1 .del-sp button{
+                font-size: 20px;
+                padding: 5px 20px;
+                float: left;
+                margin-top: 5px;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                border-radius: 5px;
+            }   
+                .del-sp button:hover{
+                    background-color: red;
+                    cursor: pointer;
+                } 
+
+        .block3-left .box2{
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            margin-bottom: 80px;
+        }
+            .box2 p{
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+            .box2 textarea{
+                width: 100%;
+                height: auto;
+                border: none;
+                border-radius: 5px;
+                background-color: rgb(207, 207, 207);
+                font-size: 15px;
+                padding: 5px;
+            }
+
+    .block3-right{
+        width: 25%;
+        height: auto;
+        float: left;
+        border: 1px solid black;
+    }
+        .block3-right .block-name{
+            width: 100%;
+            height: auto;
+            background-color: black;
+            text-align: center;
+        }
+            .block-name p{
+                color: white;
+                font-size: 25px;
+                padding: 10px 0px;
+            }
+        .block3-right .block-body{
+            width: 100%;
+            height: auto;
+            margin-left: 20px;   
+        }
+            .block-body .p1{
+                padding: 15px 0;
+                font-weight: bold;
+                font-size: 20px;
+            }
+                .p1 b{
+                    color: red;
+                }
+            .block-body .p2{
+                padding: 5px 0;
+            }
+        .block3-right .block-btn{
+            width: 100%;
+            height: auto;
+            margin-top: 8px;
+            display: inline-block;
+            
+        }
+            .block-btn .btn1{
+                display: block;
+                font-size: 20px;
+                font-weight: bold;
+                padding: 10px 80px;
+                margin-left: 93px;
+                margin-bottom: 10px;
+                background-color: rgb(219, 219, 74);
+                color: white;
+                border-radius: 15px;
+                border: none;
+            }
+            .block-btn .btn2{
+                font-size: 20px;
+                font-weight: bold;
+                padding: 10px 45px;
+                margin-left: 93px;
+                margin-bottom: 10px;
+                background-color: rgb(180, 180, 173);
+                color: rgb(8, 8, 8);
+                border-radius: 15px;
+                border: none;
+            }
+            .block-btn button:hover{
+                cursor: pointer;
+                background-color: red;
+            }
+
+.duoi{
+    width: 98%;
+    height: auto;
+    background-color: yellow;
+    float: left;
+    margin-top: -50px;
+}
+ .duoi .adderss1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-left: 160px;
+}
+    .adderss1 .left{
+        margin-right: 80px;
+    }
+ .duoi .adderss1 .left p{
+    font-size: 20px;
+    padding: 8px 25px;
+}
+ .duoi .adderss1 .left p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+ .duoi .adderss1 .right p{
+    font-size: 20px;
+    padding: 8px 25px;
+    text-align: center;
+}
+ .duoi .adderss1 .right img{
+    width:  10%;
+}
+
+ .duoi .adderss2{
+    width: 100%;
+    height: 20%;
+    background-color: #666161;
+}
+ .duoi .adderss2 p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transform: translateY(10px);
+}.duoi{
+    width: 100%;
+    height: 220px;
+    background-color: yellow;
+}
+ .duoi .adderss1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+ .duoi .adderss1 .left p{
+    font-size: 20px;
+    padding: 8px 25px;
+}
+ .duoi .adderss1 .left p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+ .duoi .adderss1 .right p{
+    font-size: 20px;
+    padding: 8px 25px;
+    text-align: center;
+}
+ .duoi .adderss1 .right img{
+    width:  10%;
+}
+
+ .duoi .adderss2{
+    width: 100%;
+    height: 20%;
+    background-color: #666161;
+}
+ .duoi .adderss2 p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transform: translateY(10px);
+}
+
+
+                   
+            
